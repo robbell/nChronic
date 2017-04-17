@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Chronic.Core</id>
-    <version>0.3.3</version>
+    <version>0.3.2</version>
     <authors>Rob Bell</authors>
     <owners>Rob Bell</owners>
     <licenseUrl>https://raw.github.com/robbell/nChronic.Core/master/LICENSE</licenseUrl>
