@@ -1,9 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
     <AssemblyName>Chronic.Core</AssemblyName>
     <RootNamespace>Chronic.Core</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Chronic.Core.v3.ncrunchproject" />
+    <None Remove="Chronic.NetCore.v3.ncrunchproject" />
+  </ItemGroup>
 
 </Project>
