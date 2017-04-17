@@ -1,22 +1,21 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Chronic</id>
-    <version>0.3.2</version>
-    <authors>Robert Wilczynski</authors>
-    <owners>Robert Wilczynski</owners>
-    <licenseUrl>https://raw.github.com/robertwilczynski/nChronic/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/robertwilczynski/nChronic</projectUrl>
-	<iconUrl>https://raw.github.com/robertwilczynski/nChronic/master/doc/chronic.png</iconUrl>
+    <id>Chronic.Core</id>
+    <version>0.3.3</version>
+    <authors>Rob Bell</authors>
+    <owners>Rob Bell</owners>
+    <licenseUrl>https://raw.github.com/robbell/nChronic.Core/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/robbell/nChronic.Core</projectUrl>
+	<iconUrl>https://raw.github.com/robbell/nChronic.Core/master/doc/chronic.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A natural language date parser for .Net. A port of Ruby's chronic.</description>
+    <description>A natural language date parser for .Net Core. A port of Ruby's chronic.</description>
     <releaseNotes>Initial release.</releaseNotes>
-    <copyright>Copyright Robert Wilczynski 2011-2012</copyright>
+    <copyright>Copyright Rob Bell 2017</copyright>
     <tags>date time parsing DateTime chronic natural language</tags>
   </metadata>
   <files>
-	<file src="..\src\Chronic\bin\Release\Chronic.dll" target="lib\net40" />
-	<file src="..\src\Chronic\bin\Release\Chronic.pdb" target="lib\net40" />
-	<file src="..\src\Chronic\**\*.cs" target="src" />
+	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.dll" target="lib\netcoreapp1.1" />
+	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.pdb" target="lib\netcoreapp1.1" />
   </files>
 </package>

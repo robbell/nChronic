@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronic.NetCore", "Chronic.NetCore\Chronic.NetCore.csproj", "{51D152DA-DCAB-41A6-B1EA-C2BDA1206F43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronic.Core", "Chronic.Core\Chronic.Core.csproj", "{51D152DA-DCAB-41A6-B1EA-C2BDA1206F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronic.NetCore.Tests", "Chronic.NetCore.Tests\Chronic.NetCore.Tests.csproj", "{DD47D53D-199F-4AA7-9FB9-42C01894FF56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronic.Core.Tests", "Chronic.Core.Tests\Chronic.Core.Tests.csproj", "{DD47D53D-199F-4AA7-9FB9-42C01894FF56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>Chronic.Core</AssemblyName>
+    <RootNamespace>Chronic.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>
