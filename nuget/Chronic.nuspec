@@ -15,7 +15,7 @@
     <tags>date time parsing DateTime chronic natural language</tags>
   </metadata>
   <files>
-	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.dll" target="lib\netcoreapp1.1" />
-	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.pdb" target="lib\netcoreapp1.1" />
+	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.dll" target="lib\netcoreapp1.0" />
+	<file src="..\src\Chronic.Core\bin\Release\netcoreapp1.1\Chronic.Core.pdb" target="lib\netcoreapp1.0" />
   </files>
 </package>
