@@ -20,7 +20,7 @@ parser.Parse("monday");
   // => Mon Aug 21 12:00:00 PDT 2006
 
 parser = new Parser(new Options { Clock = () => new DateTime(2000, 1, 1)});
-parser.Parse('may 27th')
+parser.Parse("may 27th')";
   // => Sat May 27 12:00:00 PDT 2000
 ```
 
