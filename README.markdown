@@ -1,7 +1,7 @@
 # nChronic.Core #
 
 ## Introduction ##
-A natural language date parser for .Net Core written in C#. Originally written by Mike Schrag as a direct port of Ruby's chronic, later ported to .NET by [Robert Wilczynski](https://github.com/robertwilczynski), and finally converted to .NET Core by [Rob Bell](https://github.com/robbell).
+A natural language date parser for .Net Core written in C#. Originally written by Mike Schrag as a direct port of Ruby's chronic, later ported to .NET by [Robert Wilczynski](https://github.com/robertwilczynski), and finally migrated to .NET Core by [Rob Bell](https://github.com/robbell).
 
 ## Usage ##
 
