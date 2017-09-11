@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFrameworks>netcoreapp1.1;netstandard2.0</TargetFrameworks>
     <AssemblyName>Chronic.Core</AssemblyName>
     <RootNamespace>Chronic.Core</RootNamespace>
   </PropertyGroup>
@@ -9,6 +9,10 @@
   <ItemGroup>
     <None Remove="Chronic.Core.v3.ncrunchproject" />
     <None Remove="Chronic.NetCore.v3.ncrunchproject" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
   </ItemGroup>
 
 </Project>
