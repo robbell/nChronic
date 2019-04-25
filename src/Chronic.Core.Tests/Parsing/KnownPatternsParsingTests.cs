@@ -308,7 +308,19 @@ namespace Chronic.Core.Tests.Parsing
             Parse("12/06")
                 .AssertEquals(Time.New(2006, 12, 16, 12));
 
-            Parse("13/06").AssertIsNull();
+            Parse("13/13").AssertIsNull();
+        }
+
+        [Fact]
+        public void sy_sm()
+        {
+            Parse("2006/05")
+                .AssertEquals(Time.New(2006, 5, 16, 12));
+
+            Parse("2006/12")
+                .AssertEquals(Time.New(2006, 12, 16, 12));
+
+            Parse("2016/13").AssertIsNull();
         }
 
         [Fact]

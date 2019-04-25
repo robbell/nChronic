@@ -45,4 +45,5 @@
 
 # ============== Project specific ignores
 src/packages
+src/.idea
 build

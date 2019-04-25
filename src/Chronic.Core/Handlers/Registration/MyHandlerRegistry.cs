@@ -223,6 +223,13 @@ namespace Chronic.Core.Handlers.Registration
                         .Required<ScalarYear>()
                         .Using<SmSyHandler>(),
 
+
+                    Handle
+                        .Required<ScalarYear>()
+                        .Required<SeparatorDate>()
+                        .Required<ScalarMonth>()
+                        .Using<SySmHandler>(),
+
                     Handle
                         .Required<Scalar>()
                         .Required<IRepeater>()
