@@ -34,7 +34,7 @@ namespace Chronic.Core
             options.OriginalPhrase = phrase;
             Logger.Log(() => phrase);
 
-            //phrase = Normalize(phrase);
+            phrase = Normalize(phrase);
             Logger.Log(() => phrase);
 
             var tokens = TokenizeInternal(phrase, options);
