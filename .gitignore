@@ -22,8 +22,8 @@
 # Source/*/obj/ - why the hell doesn't this work?
 
 # below will affect bins and objs in tools too - that's why this has been added to Source/.gitignore for now
-#*\bin
-#*\obj
+*\bin
+*\obj
 
 # ============== Resharper
 

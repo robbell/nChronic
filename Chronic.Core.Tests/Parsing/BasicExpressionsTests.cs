@@ -10,7 +10,16 @@ namespace Chronic.Core.Tests.Parsing
         {
             return DateTime.Now;
         }
-        
+
+        [Fact]
+        public void TimeTest()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Parse("04/08");
+            }
+        }
+
         [Fact]
         public void today_is_parsed_correctly()
         {
