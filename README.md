@@ -1,12 +1,12 @@
-# nChronic.Core #
+# nChronic.Core
 
-## Introduction ##
-A natural language date parser for .Net Core written in C#. Originally written by Mike Schrag as a direct port of Ruby's chronic, later ported to .NET by [Robert Wilczynski](https://github.com/robertwilczynski), and finally migrated to .NET Core by [Rob Bell](https://github.com/robbell).
+## Introduction
 
-## Usage ##
+A natural language date parser for .Net Standard written in C#. Originally written by Mike Schrag as a direct port of Ruby's Chronic, later ported to .NET by [Robert Wilczynski](https://github.com/robertwilczynski), and finally migrated to .NET Standard by [Rob Bell](https://github.com/robbell).
 
+## Usage
 
-```csharp
+``` csharp
 DateTime.Now; 
   //=> Sun Aug 27 23:18:25 PDT 2006
 
@@ -24,9 +24,25 @@ parser.Parse("may 27th");
   // => Sat May 27 12:00:00 PDT 2000
 ```
 
-## Credits ##
+## Installation
+
+### .NET Core
+
+``` sh
+dotnet add package Chronic.Core
+```
+
+### .NET Framework
+
+``` powershell
+Install-Package Chronic.Core
+```
+
+## Credits
+
 This is a port of https://github.com/mojombo/chronic inspired by https://github.com/samtingleff/jchronic. Please see those projects for further credits.
 
-## License ##
+## License
+
 Unless specified otherwise all is licensed under the MIT license. See LICENSE for details.
 Logo is the creation of Alexander Moore and is licensed under the GNU/GPL license (via http://findicons.com/icon/232550/clock).

@@ -1,18 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp1.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AssemblyName>Chronic.Core</AssemblyName>
     <RootNamespace>Chronic.Core</RootNamespace>
+    <Authors>Rob Bell</Authors>
+    <Description>A natural language date parser for .Net Standard. A port of Ruby's Chronic.</Description>
+    <PackageId>Chronic.Core</PackageId>
+    <PackageVersion>0.4.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/robbell/nChronic.Core</PackageProjectUrl>
+	  <PackageIcon>chronic.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Date parser;Natural language;.NET Standard;.NET Core;Chronic</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Chronic.Core.v3.ncrunchproject" />
-    <None Remove="Chronic.NetCore.v3.ncrunchproject" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+    <Content Include="bin/Release/netstandard2.0/Chronic.Core.pdb" PackagePath="lib/netstandard2.0" />
+    <None Include="../../doc/chronic.png" Pack="true" PackagePath="$(PackageIcon)"/>
   </ItemGroup>
 
 </Project>

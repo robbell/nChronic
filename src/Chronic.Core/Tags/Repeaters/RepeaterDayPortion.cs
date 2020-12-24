@@ -23,7 +23,6 @@ namespace Chronic.Core.Tags.Repeaters
         {
             var range = GetRange(Value);
             DateTime rangeStart;
-            DateTime rangeEnd;
             if (_currentSpan == null)
             {
                 var now = Now.Value;
