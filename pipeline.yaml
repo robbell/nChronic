@@ -1,0 +1,17 @@
+trigger:
+  branches: 
+    include:
+    - main
+    - master
+    - feature/*
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: DotNetCoreCLI@2
+    displayName: 'Build Solution'
+    inputs:
+      command: "build"
+      projects: '$(Build.SourcesDirectory)/src/Chronic.sln'
+      arguments: "--configuration Release --output $(Build.ArtifactStagingDirectory)/sdk --no-restore"
