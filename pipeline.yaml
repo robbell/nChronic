@@ -10,6 +10,12 @@ pool:
 
 steps:
   - task: DotNetCoreCLI@2
+    displayName: 'Restore Solution'
+    inputs:
+      command: 'restore'
+      projects: '$(Build.SourcesDirectory)/src/Chronic.sln'
+      
+  - task: DotNetCoreCLI@2
     displayName: 'Build Solution'
     inputs:
       command: "build"
